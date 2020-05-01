@@ -8,6 +8,8 @@ If you want you can check out the videos on my YouTube channel [A Swiftly Tiltin
 
 Just getting everything set up for the next 100 days of code, and starting to go through [Paul's](https://twitter.com/twostraws) [Swift in Sixty Seconds](https://www.hackingwithswift.com/review) interactive review.
 
+Worked with [Simple Types](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/MyPlayground.playground/Contents.swift) in Swift.
+
 ```swift
 let greeting = "Hello, World!"
 ``` 
