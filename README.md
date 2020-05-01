@@ -10,6 +10,8 @@ Just getting everything set up for the next 100 days of code, and starting to go
 
 Worked with [Simple Types](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/MyPlayground.playground/Contents.swift) in Swift.
 
+I also started making a simple [watchOS app](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/Apps/watchOS/Countdown%20Timer).
+
 ```swift
 let greeting = "Hello, World!"
 ``` 
