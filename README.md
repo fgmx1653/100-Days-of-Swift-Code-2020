@@ -18,4 +18,4 @@ let greeting = "Hello, World!"
 
 ## Day 002 – Complex Data Types && a SwiftUI Game?
 
-More Swift, and playing with some SwiftUI game ideas.
+More Swift, and playing with some [SwiftUI game ideas.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/Apps/iOS/HyperCard)
