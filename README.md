@@ -12,6 +12,8 @@ Worked with [Simple Types](https://github.com/calebrwells/100-Days-of-Swift-Code
 
 I also started making a simple [watchOS app](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/Apps/watchOS/Countdown%20Timer).
 
+I need to look into the [Swift Package Manager](https://swift.org/package-manager/) more before I continue work on the watch app as I wanted to use the [Time Swift package](https://github.com/davedelong/time) by [Dave](https://twitter.com/davedelong), but having issues with editing the Package.swift dependencies. This [article](https://useyourloaf.com/blog/editing-a-swift-package/) looks like a good place to start.
+
 ```swift
 let greeting = "Hello, World!"
 ``` 
