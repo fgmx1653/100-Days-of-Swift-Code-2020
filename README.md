@@ -16,10 +16,6 @@ I also started making a simple [watchOS app](https://github.com/calebrwells/100-
 let greeting = "Hello, World!"
 ``` 
 
-## Day 002 – Swift and stuff
+## Day 002 – Complex Data Types && a SwiftUI Game?
 
-Coming soon...
-
-```swift
-// Some code here.
-``` 
+More Swift, and playing with some SwiftUI game ideas.
