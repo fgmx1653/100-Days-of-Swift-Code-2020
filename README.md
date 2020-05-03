@@ -25,3 +25,5 @@ More Swift, and playing with some [SwiftUI game ideas.](https://github.com/caleb
 ## Day 003 – Swift Operators and Conditions
 
 Today we're going to play around with math in Swift and look at how to make things conditional!
+
+[Link to day three code](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/Operators%20and%20Conditions%20Playground.playground/Contents.swift)
