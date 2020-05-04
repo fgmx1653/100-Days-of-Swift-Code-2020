@@ -27,3 +27,7 @@ More Swift, and playing with some [SwiftUI game ideas.](https://github.com/caleb
 Today we're going to play around with math in Swift and look at how to make things conditional!
 
 [Link to day three code](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/Operators%20and%20Conditions%20Playground.playground/Contents.swift)
+
+## Day 004 – Swift loops and The Star Wars API
+
+Today I learned about [loops](https://www.hackingwithswift.com/100/swiftui/4) and [The Star Wars API](https://swapi.dev)!
