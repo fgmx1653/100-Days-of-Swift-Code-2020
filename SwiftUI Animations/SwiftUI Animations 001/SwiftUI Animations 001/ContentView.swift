@@ -8,7 +8,7 @@ struct ContentView: View {
         HStack {
             ForEach(colors, id: \.self) { color in
                 Circle()
-                    .foregroundColor(.red)
+                    .foregroundColor(color)
                     .frame(width: 72, height: 72)
             }
         }
