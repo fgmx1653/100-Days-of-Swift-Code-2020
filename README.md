@@ -33,3 +33,5 @@ Today we're going to play around with math in Swift and look at how to make thin
 Today I learned about [loops](https://www.hackingwithswift.com/100/swiftui/4) and [The Star Wars API](https://swapi.dev)!
 
 [The SwiftUI Star Wars app code.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/Apps/iOS/The%20Star%20Wars%20API)
+
+## Day 005 – 
