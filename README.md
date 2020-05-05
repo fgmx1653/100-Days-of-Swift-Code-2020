@@ -34,5 +34,10 @@ Today I learned about [loops](https://www.hackingwithswift.com/100/swiftui/4) an
 
 [The SwiftUI Star Wars app code.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/Apps/iOS/The%20Star%20Wars%20API)
 
-## Day 005 – 
+## Day 005 – Swift Functions && SpriteKit!
+
+Let's have fun with [functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html) and [SpriteKit!](https://developer.apple.com/documentation/spritekit)
+
+You can see the Swift functions playground [here.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/Functions%20Playground.playground/Contents.swift)
+You can see the SpriteKit game I started working on [here.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SpriteKit%20Games/SpriteKit%20Game%20001)
 

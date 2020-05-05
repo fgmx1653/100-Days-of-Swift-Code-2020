@@ -11,4 +11,4 @@
 
 [Loops.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/Loops%20%20Playground.playground/Contents.swift)
 
-[Functions.]()
+[Functions.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/Swift/Functions%20Playground.playground/Contents.swift)
