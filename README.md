@@ -48,5 +48,7 @@ Today I read about Closures.
 Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
 [The power of Closures in SwiftUI.](https://swiftwithmajid.com/2019/11/06/the-power-of-closures-in-swiftui/)
+
 [Swift by Sundell Closures.](https://www.swiftbysundell.com/basics/closures/)
+
 [Day 006: Closures, part one.](https://www.hackingwithswift.com/100/swiftui/6)
