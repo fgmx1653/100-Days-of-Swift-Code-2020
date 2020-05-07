@@ -42,3 +42,11 @@ You can see the Swift functions playground [here.](https://github.com/calebrwell
 
 You can see the SpriteKit game I started working on [here.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SpriteKit%20Games/SpriteKit%20Game%20001)
 
+## Day 006 – Swift Closures, Part One
+
+Today I read about Closures.
+Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+
+[The power of Closures in SwiftUI.](https://swiftwithmajid.com/2019/11/06/the-power-of-closures-in-swiftui/)
+[Swift by Sundell Closures.](https://www.swiftbysundell.com/basics/closures/)
+[Day 006: Closures, part one.](https://www.hackingwithswift.com/100/swiftui/6)
