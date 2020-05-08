@@ -1,6 +1,6 @@
 # A simple slide-out menu with SwiftUI
 
-![Day 007 image]()
+![Day 007 image](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/Day%20007/Day%20007.png)
 
 So eight days ago I decided to start the #100DaysOfCode challenge. I'm not exactly following [Paul Hudson's](https://twitter.com/twostraws) [100 Days of Swift or SwiftUI](https://www.hackingwithswift.com/100/swiftui/) other than the first 15 days I did want to focus on the [Swift programming language](https://swift.org/documentation/) which has gone okay.
 
