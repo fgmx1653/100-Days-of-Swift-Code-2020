@@ -1,5 +1,7 @@
 # A simple slide-out menu with SwiftUI
 
+![Day 007 image]()
+
 So eight days ago I decided to start the #100DaysOfCode challenge. I'm not exactly following [Paul Hudson's](https://twitter.com/twostraws) [100 Days of Swift or SwiftUI](https://www.hackingwithswift.com/100/swiftui/) other than the first 15 days I did want to focus on the [Swift programming language](https://swift.org/documentation/) which has gone okay.
 
 But anyway well doing this challenge I also wanted to be uploading a video every day to kind of show my progress. But yesterday I was running out of time so I did just a swift one take video where I just hit record on my Mac, code for 20 minutes, hit stop recording, and uploaded the video.

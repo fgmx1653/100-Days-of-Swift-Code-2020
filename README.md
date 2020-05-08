@@ -56,4 +56,4 @@ Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/
 
 ## Day 007 – SwiftUI Side Menu
 
-[SwiftUI Side Menu.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/Day%20007/Day%20007/ContentView.swift)
+[SwiftUI Side Menu.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/Day%20007)
