@@ -52,3 +52,8 @@ Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/
 [Swift by Sundell Closures.](https://www.swiftbysundell.com/basics/closures/)
 
 [Day 006: Closures, part one.](https://www.hackingwithswift.com/100/swiftui/6)
+
+
+## Day 007 – SwiftUI Side Menu
+
+[SwiftUI Side Menu.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/Day%20007/Day%20007/ContentView.swift)
