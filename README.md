@@ -68,4 +68,4 @@ Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/
 ---
 ## Day 009 – Started making a new SwiftUI app
 
-[My clues]()
+[My clues](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/My%20clues)
