@@ -1,4 +1,5 @@
 # 100 Days of Swift Code!
+---
 ![100 days of Swift code image](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/100%20Days%20of%20Swift.png)
 
 Welcome back ladies and gentlemen, in this git repository I will be posting code for the next 100 days! 
@@ -60,3 +61,11 @@ Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/
 ## Day 007 – SwiftUI Side Menu
 
 [SwiftUI Side Menu.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/Day%20007)
+
+---
+## Day 008 – Learning a little about the Combine Framework
+
+---
+## Day 009 – Started making a new SwiftUI app
+
+[My clues]()
