@@ -41,7 +41,12 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 //MARK: - New .swift file.
+import AVFoundation
+
 struct CardView: View {
+    let speechSynthesizer = AVSpeechSynthesizer()
+    var volume = 0.0
+    
     @State private var word: CGFloat = 0
     @Binding var currentList: Int
     let wordsList = [
@@ -74,8 +79,7 @@ struct CardView: View {
             
             VStack {
                 Spacer()
-//                Text(word < 100 ? wordsList[Int(word)] : "Tap to\nstart again!")
-                Text(wordsList[currentList][Int(word)])
+                Text(word < 100 ? wordsList[currentList][Int(word)] : "Tap to\nstart again!")
                     .font(.title)
                     .bold()
                     .multilineTextAlignment(.center)
@@ -110,7 +114,10 @@ struct CardView: View {
                     
                     Spacer()
                     Button(action: {
-                        //
+                        if self.word < 100 {
+                            let speechUtterance = AVSpeechUtterance(string: self.wordsList[self.currentList][Int(self.word)])
+                            self.speechSynthesizer.speak(speechUtterance)
+                        }
                     }) {
                         Image(systemName: "speaker.3.fill")
                             .font(.largeTitle)
