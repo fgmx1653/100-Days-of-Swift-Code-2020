@@ -1,4 +1,8 @@
 # SwiftUI Flash Card app
-![SwiftUI Flash Card app](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/Flashcard%20App/Screen%20Shot%202020-05-11%20at%208.24.28%20AM.png)
+![Daily Sight Words App](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/Flashcard%20App/D010_D012.png)
 
-Working on a simple flash card app.
+
+Over the past few days I built a simple little iOS/iPadOS and macOS app.
+
+- Daily Sight Words – [App Store](https://apps.apple.com/us/app/daily-sight-words/id1071881980)
+- Daily Sight Words – [Code](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/Flashcard%20App)
