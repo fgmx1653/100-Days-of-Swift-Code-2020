@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0009564D246A420E0014007B /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009564C246A420E0014007B /* PhoneView.swift */; };
+		0009564F246A42AD0014007B /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009564E246A42AD0014007B /* PadView.swift */; };
+		00095651246A42F60014007B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00095650246A42F60014007B /* CardView.swift */; };
+		00095653246A43730014007B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00095652246A43730014007B /* ListView.swift */; };
+		00095655246A43C50014007B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00095654246A43C50014007B /* SettingsView.swift */; };
 		00AD5A1824688E5C0041015B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD5A1724688E5C0041015B /* AppDelegate.swift */; };
 		00AD5A1A24688E5C0041015B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD5A1924688E5C0041015B /* SceneDelegate.swift */; };
 		00AD5A1C24688E5C0041015B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD5A1B24688E5C0041015B /* ContentView.swift */; };
@@ -16,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0009564B2469F4730014007B /* Flashcard App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Flashcard App.entitlements"; sourceTree = "<group>"; };
+		0009564C246A420E0014007B /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		0009564E246A42AD0014007B /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
+		00095650246A42F60014007B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		00095652246A43730014007B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		00095654246A43C50014007B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		00AD5A1424688E5C0041015B /* Flashcard App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashcard App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AD5A1724688E5C0041015B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00AD5A1924688E5C0041015B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00095656246A444A0014007B /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				00AD5A1724688E5C0041015B /* AppDelegate.swift */,
+				00AD5A1924688E5C0041015B /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
 		00AD5A0B24688E5B0041015B = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +76,14 @@
 		00AD5A1624688E5C0041015B /* Flashcard App */ = {
 			isa = PBXGroup;
 			children = (
-				00AD5A1724688E5C0041015B /* AppDelegate.swift */,
-				00AD5A1924688E5C0041015B /* SceneDelegate.swift */,
+				0009564B2469F4730014007B /* Flashcard App.entitlements */,
+				00095656246A444A0014007B /* App Delegates */,
 				00AD5A1B24688E5C0041015B /* ContentView.swift */,
+				0009564C246A420E0014007B /* PhoneView.swift */,
+				0009564E246A42AD0014007B /* PadView.swift */,
+				00095650246A42F60014007B /* CardView.swift */,
+				00095652246A43730014007B /* ListView.swift */,
+				00095654246A43C50014007B /* SettingsView.swift */,
 				00AD5A1D24688E5E0041015B /* Assets.xcassets */,
 				00AD5A2224688E5E0041015B /* LaunchScreen.storyboard */,
 				00AD5A2524688E5E0041015B /* Info.plist */,
@@ -147,8 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00AD5A1824688E5C0041015B /* AppDelegate.swift in Sources */,
+				00095655246A43C50014007B /* SettingsView.swift in Sources */,
 				00AD5A1A24688E5C0041015B /* SceneDelegate.swift in Sources */,
 				00AD5A1C24688E5C0041015B /* ContentView.swift in Sources */,
+				00095653246A43730014007B /* ListView.swift in Sources */,
+				0009564F246A42AD0014007B /* PadView.swift in Sources */,
+				00095651246A42F60014007B /* CardView.swift in Sources */,
+				0009564D246A420E0014007B /* PhoneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Flashcard App/Flashcard App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashcard App/Preview Content\"";
 				DEVELOPMENT_TEAM = 33NUGZ4GWE;
@@ -295,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LittleRed.Flashcard-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Flashcard App/Flashcard App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashcard App/Preview Content\"";
 				DEVELOPMENT_TEAM = 33NUGZ4GWE;
@@ -315,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LittleRed.Flashcard-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
