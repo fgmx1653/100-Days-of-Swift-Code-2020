@@ -71,7 +71,7 @@ Some links on [Swift Closures.](https://docs.swift.org/swift-book/LanguageGuide/
 [My clues](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/My%20clues)
 
 ---
-## Day 010-012 – Making a SwiftUI app for iOS, iPadOS, and macOS
+## Days 010-012 – Making a SwiftUI app for iOS, iPadOS, and macOS
 Over the past few days I built a simple little iOS/iPadOS and macOS app.
 
 - Daily Sight Words – [App Store](https://apps.apple.com/us/app/daily-sight-words/id1071881980)
