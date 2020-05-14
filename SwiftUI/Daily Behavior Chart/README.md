@@ -4,7 +4,7 @@
 I'm making a new iOS/iPadOS and macOS app and plan to write about it here.
 
 - Daily Behavior Chart – [App Store coming soon]()
-- Daily Behavior Chart – [Code]()
+- Daily Behavior Chart – [Code](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/Daily%20Behavior%20Chart/Daily%20Behavior%20Chart)
 - Daily Behavior Chart – [Videos coming soon]()
 
 ## Day One  – New Xcode Project
