@@ -8,7 +8,6 @@ I'm making a new iOS/iPadOS and macOS app and plan to write about it here.
 - Daily Behavior Chart – [Videos coming soon]()
 
 ## Day One  – New Xcode Project
----
 
 So here is the sketch of the app idea on my whiteboard.
 
