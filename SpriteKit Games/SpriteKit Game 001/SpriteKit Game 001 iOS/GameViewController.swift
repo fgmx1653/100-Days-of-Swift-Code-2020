@@ -1,29 +1,17 @@
-//
-//  GameViewController.swift
-//  SpriteKit Game 001 iOS
-//
-//  Created by Caleb Wells on 5/5/20.
-//  Copyright © 2020 Caleb Wells. All rights reserved.
-//
-
 import UIKit
 import SpriteKit
-import GameplayKit
 
 class GameViewController: UIViewController {
+    let scene = GameScene()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        scene.size = .init(width: view.bounds.width, height: view.bounds.height)
+        scene.backgroundColor = #colorLiteral(red: 0.4513868093, green: 0.9930960536, blue: 1, alpha: 1)
         
-        let scene = GameScene.newGameScene()
-
-        // Present the scene
-        let skView = self.view as! SKView
+        let skView = SKView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.width))
+        view.addSubview(skView)
         skView.presentScene(scene)
-        
-        skView.ignoresSiblingOrder = true
-        skView.showsFPS = true
-        skView.showsNodeCount = true
     }
 
     override var shouldAutorotate: Bool {
