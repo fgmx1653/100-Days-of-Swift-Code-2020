@@ -92,8 +92,8 @@ I mainly watched videos and read articles about iOS development during days 13 t
 
 Let's start making games! In this video, we will get the very basics of our game started.
 
-Day 017 [video here.](https://youtu.be/_hgFezc0DXw)
-Day 017 [code here.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SpriteKit%20Games)
+- Day 017 [video here.](https://youtu.be/_hgFezc0DXw)
+- Day 017 [code here.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SpriteKit%20Games)
 
 You can check out how I set up the Xcode project [here.](https://youtu.be/_mkA-tCHVP4)
 
