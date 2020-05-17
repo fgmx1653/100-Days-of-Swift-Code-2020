@@ -81,6 +81,19 @@ Over the past few days I built a simple little iOS/iPadOS and macOS app.
 ![Daily Sight Words App](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/Flashcard%20App/D010_D012.png)
 
 ---
-## Days 013-0?? – New app in development
+## Days 013-016 – New app? 
 
 Link to the next app I am developing [here](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/Daily%20Behavior%20Chart)
+
+I mainly watched videos and read articles about iOS development during days 13 through 16.
+
+---
+## Days 017 – 2D game development
+
+Let's start making games! In this video, we will get the very basics of our game started.
+
+Day 017 [video here.](https://youtu.be/_hgFezc0DXw)
+Day 017 [code here.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SpriteKit%20Games)
+
+You can check out how I set up the Xcode project [here.](https://youtu.be/_mkA-tCHVP4)
+
