@@ -97,3 +97,10 @@ Let's start making games!
 
 You can check out how I set up the Xcode project [here.](https://youtu.be/_mkA-tCHVP4)
 
+---
+## Days 018 – SwiftUI Weather Widget
+
+![SwiftUI Weather Widget](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/blob/master/SwiftUI/SwiftUI%20Weather%20Widgets/D018.png)
+
+- SwiftUI Weather Widget [code](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/SwiftUI%20Weather%20Widgets)
+- SwiftUI Weather Widget [video](https://youtu.be/R5fjMUZx4yE)
