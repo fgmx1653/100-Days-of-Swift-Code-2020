@@ -5,8 +5,14 @@ class EmojiMemoryGame {
         let emojis = ["👻", "🎃", "🕷", "💀", "🧟‍♀️", "👹"]
         let randomEmojis = Int.random(in: emojis.indices)
         
-        return MemoryGame<String>(numberOfPairsOfCards: randomEmojis) { pairIndex in
-            emojis[pairIndex]
+        if randomEmojis < 2 {
+            return MemoryGame<String>(numberOfPairsOfCards: 2) { pairIndex in
+                emojis[pairIndex]
+            }
+        } else {
+            return MemoryGame<String>(numberOfPairsOfCards: randomEmojis) { pairIndex in
+                emojis[pairIndex]
+            }
         }
     }
     
