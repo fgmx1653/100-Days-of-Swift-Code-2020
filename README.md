@@ -113,3 +113,5 @@ You can check out how I set up the Xcode project [here.](https://youtu.be/_mkA-t
 
 ---
 ## Days 020-021 – More SwiftUI
+
+Day 021 [code.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/Delete%20Me)
