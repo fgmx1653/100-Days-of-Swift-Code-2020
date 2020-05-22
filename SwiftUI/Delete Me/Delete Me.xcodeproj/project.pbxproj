@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C680D2C7054450EBF0D16E4 /* Kotlin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 824A6C7E7BE99D7855992525 /* Build configuration list for PBXAggregateTarget "Kotlin" */;
+			buildPhases = (
+				D9EC054141065F23CCC3F459 /* Compile Kotlin */,
+			);
+			dependencies = (
+			);
+			name = Kotlin;
+		};
+		901E04F898AD6594E109FAA1 /* Gryphon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CEC939C5CDB5FB00B9D6200 /* Build configuration list for PBXAggregateTarget "Gryphon" */;
+			buildPhases = (
+				6F5A6DCE0769B21A6D5F1AAF /* Call Gryphon */,
+			);
+			dependencies = (
+			);
+			name = Gryphon;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00A55E34247597F100603D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A55E33247597F100603D80 /* AppDelegate.swift */; };
+		00A55E36247597F100603D80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A55E35247597F100603D80 /* SceneDelegate.swift */; };
+		00A55E38247597F100603D80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A55E37247597F100603D80 /* ContentView.swift */; };
+		00A55E3A247597F400603D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A55E39247597F400603D80 /* Assets.xcassets */; };
+		00A55E3D247597F400603D80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A55E3C247597F400603D80 /* Preview Assets.xcassets */; };
+		00A55E40247597F400603D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A55E3E247597F400603D80 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A55E30247597F100603D80 /* Delete Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delete Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A55E33247597F100603D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A55E35247597F100603D80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00A55E37247597F100603D80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00A55E39247597F400603D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A55E3C247597F400603D80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00A55E3F247597F400603D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A55E41247597F400603D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A55E2D247597F100603D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A55E27247597F100603D80 = {
+			isa = PBXGroup;
+			children = (
+				00A55E32247597F100603D80 /* Delete Me */,
+				00A55E31247597F100603D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A55E31247597F100603D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A55E30247597F100603D80 /* Delete Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A55E32247597F100603D80 /* Delete Me */ = {
+			isa = PBXGroup;
+			children = (
+				00A55E33247597F100603D80 /* AppDelegate.swift */,
+				00A55E35247597F100603D80 /* SceneDelegate.swift */,
+				00A55E37247597F100603D80 /* ContentView.swift */,
+				00A55E39247597F400603D80 /* Assets.xcassets */,
+				00A55E3E247597F400603D80 /* LaunchScreen.storyboard */,
+				00A55E41247597F400603D80 /* Info.plist */,
+				00A55E3B247597F400603D80 /* Preview Content */,
+			);
+			path = "Delete Me";
+			sourceTree = "<group>";
+		};
+		00A55E3B247597F400603D80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00A55E3C247597F400603D80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A55E2F247597F100603D80 /* Delete Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A55E44247597F400603D80 /* Build configuration list for PBXNativeTarget "Delete Me" */;
+			buildPhases = (
+				00A55E2C247597F100603D80 /* Sources */,
+				00A55E2D247597F100603D80 /* Frameworks */,
+				00A55E2E247597F100603D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delete Me";
+			productName = "Delete Me";
+			productReference = 00A55E30247597F100603D80 /* Delete Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A55E28247597F100603D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Caleb Wells";
+				TargetAttributes = {
+					00A55E2F247597F100603D80 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 00A55E2B247597F100603D80 /* Build configuration list for PBXProject "Delete Me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A55E27247597F100603D80;
+			productRefGroup = 00A55E31247597F100603D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A55E2F247597F100603D80 /* Delete Me */,
+				901E04F898AD6594E109FAA1 /* Gryphon */,
+				2C680D2C7054450EBF0D16E4 /* Kotlin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A55E2E247597F100603D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A55E40247597F400603D80 /* LaunchScreen.storyboard in Resources */,
+				00A55E3D247597F400603D80 /* Preview Assets.xcassets in Resources */,
+				00A55E3A247597F400603D80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F5A6DCE0769B21A6D5F1AAF /* Call Gryphon */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Call Gryphon";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "gryphon \"${PROJECT_NAME}.xcodeproj\" \"${SRCROOT}/gryphonInputFiles.xcfilelist\"";
+		};
+		D9EC054141065F23CCC3F459 /* Compile Kotlin */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash .gryphon/scripts/compileKotlin.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A55E2C247597F100603D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A55E34247597F100603D80 /* AppDelegate.swift in Sources */,
+				00A55E36247597F100603D80 /* SceneDelegate.swift in Sources */,
+				00A55E38247597F100603D80 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00A55E3E247597F400603D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A55E3F247597F400603D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A55E42247597F400603D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A55E43247597F400603D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A55E45247597F400603D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Delete Me/Preview Content\"";
+				DEVELOPMENT_TEAM = 33NUGZ4GWE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Delete Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.calebwells.Delete-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A55E46247597F400603D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Delete Me/Preview Content\"";
+				DEVELOPMENT_TEAM = 33NUGZ4GWE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Delete Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.calebwells.Delete-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08D7630CA89645BA75E8B14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ANDROID_ROOT = ../Android;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Kotlin;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = FALSE;
+			};
+			name = Debug;
+		};
+		0BC1450891D40305E7380633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Gryphon;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = FALSE;
+			};
+			name = Release;
+		};
+		546B9D6DC0F5FE2B403BC92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Gryphon;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = FALSE;
+			};
+			name = Debug;
+		};
+		62AA39496ABE3F992693EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ANDROID_ROOT = ../Android;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Kotlin;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = FALSE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A55E2B247597F100603D80 /* Build configuration list for PBXProject "Delete Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A55E42247597F400603D80 /* Debug */,
+				00A55E43247597F400603D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A55E44247597F400603D80 /* Build configuration list for PBXNativeTarget "Delete Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A55E45247597F400603D80 /* Debug */,
+				00A55E46247597F400603D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEC939C5CDB5FB00B9D6200 /* Build configuration list for PBXAggregateTarget "Gryphon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC1450891D40305E7380633 /* Release */,
+				546B9D6DC0F5FE2B403BC92C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824A6C7E7BE99D7855992525 /* Build configuration list for PBXAggregateTarget "Kotlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AA39496ABE3F992693EE12 /* Release */,
+				08D7630CA89645BA75E8B14A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A55E28247597F100603D80 /* Project object */;
+}
