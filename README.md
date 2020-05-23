@@ -120,3 +120,9 @@ Day 021 [code.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/
 ## Days 022 – Swift by Sundell Basics
 
 Read through some of John's basics [articles.](https://www.swiftbysundell.com/basics/)
+
+---
+## Days 023 – SwiftUI Home View
+
+- SwiftUI Home View [video.](https://youtu.be/8EHIgyi4afY)
+- SwiftUI Home View [code.]()
