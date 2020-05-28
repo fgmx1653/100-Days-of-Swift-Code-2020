@@ -1,5 +1,7 @@
-class EmojiMemoryGame {
-    private var model = EmojiMemoryGame.createMemoryGame()
+import Foundation
+
+class EmojiMemoryGame: ObservableObject {
+    @Published private var model = EmojiMemoryGame.createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String> {
         let emojis = ["👻", "🎃", "🕷", "💀", "🧟‍♀️", "👹"]

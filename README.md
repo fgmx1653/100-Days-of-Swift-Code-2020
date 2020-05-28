@@ -126,3 +126,8 @@ Read through some of John's basics [articles.](https://www.swiftbysundell.com/ba
 
 - SwiftUI Home View [video.](https://youtu.be/8EHIgyi4afY)
 - SwiftUI Home View [code.](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/SwiftUI%20Netflix)
+
+---
+## Days 024-027 – SwiftUI apps and some more Stanford University CS193p
+
+I have been working on a few of my own random app ideas as well as going through the Stanford SwiftUI course.

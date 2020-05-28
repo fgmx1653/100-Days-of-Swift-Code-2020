@@ -17,7 +17,7 @@ struct ContentView: View {
             }
             .tag(1)
             
-            Text("Tab Content 3")
+            ComingSoonView()
                 .tabItem {
                     Image(systemName: "rectangle.on.rectangle.angled")
                     Text("Coming Soon")
@@ -50,57 +50,18 @@ struct ContentView_Previews: PreviewProvider {
 struct HomeView: View {
     var body: some View {
         ScrollView {
-            ZStack {
-                Image("poster")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(height: 600)
-                
-                VStack {
-                    TopPosterButtonsView()
-                        .padding(.top, 44)
-                    
-                    Spacer()
-                    Text("Rousing • Exciting • Superhero • Action • Family")
-                        .font(.caption)
-                    BottomPosterButtonsView()
-                }
-                .foregroundColor(.white)
-            }
-            
-            VStack {
-                HeaderView(label: "Previews")
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack {
-                        ForEach(0 ..< 5) { _ in
-                            Circle()
-                                .frame(width: 100, height: 100)
-                        }
-                    }
-                }
-            }
-            .frame(width: UIScreen.main.bounds.width - 32)
-            .padding(.vertical)
-            
-            // MARK: - New row
-            VStack {
-                HeaderView(label: "Watch It Again")
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack {
-                        ForEach(0 ..< 5) { _ in
-                            Rectangle()
-                                .aspectRatio(2/3, contentMode: .fit)
-                                .frame(height: 140)
-                        }
-                    }
-                }
-            }
-            .frame(width: UIScreen.main.bounds.width - 32)
+            HomeViewHeader()
+            PreviewsRowView(label: "Previews")
+            PostersRowView(label: "Watch It Again")
+            PostersRowView(label: "Trending Now")
+            VideoRowView(label: "Available Now: WWDC19")
+            PostersRowView(label: "Popular on Netflix")
+            PostersRowView(label: "Continue Watching for Caleb")
+                .padding(.bottom)
         }
         .edgesIgnoringSafeArea(.top)
     }
 }
-
 
 // MARK: - Poster Buttons
 struct TopPosterButtonsView: View {
@@ -121,7 +82,6 @@ struct TopPosterButtonsView: View {
         }
     }
 }
-
 
 struct BottomPosterButtonsView: View {
     let buttons = [
@@ -166,15 +126,179 @@ struct BottomPosterButton: Hashable {
     let label: String
 }
 
-struct HeaderView: View {
+struct HomeViewHeader: View {
+    var body: some View {
+        ZStack {
+            Image("poster")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(height: 600)
+                .frame(width: UIScreen.main.bounds.width)
+            
+            VStack {
+                TopPosterButtonsView()
+                    .padding(.top, 44)
+                
+                Spacer()
+                Text("Rousing • Exciting • Superhero • Action • Family")
+                    .font(.caption)
+                BottomPosterButtonsView()
+            }
+            .foregroundColor(.white)
+        }
+    }
+}
+
+struct RowsHeaderView: View {
     let label: String
     
     var body: some View {
-        HStack {
-            Text(label)
-                .bold()
-                .padding(.trailing)
-            Spacer()
+        Text(label)
+            .bold()
+            .padding(.leading)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+}
+
+struct PreviewsRowView: View {
+    let label: String
+    
+    var body: some View {
+        VStack {
+            RowsHeaderView(label: label)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 0) {
+                    ForEach(0 ..< 5) { _ in
+                        Circle()
+                            .frame(width: 100, height: 100)
+                            .padding(.leading)
+                    }
+                }
+            }
         }
+        .padding(.vertical)
+    }
+}
+
+struct PostersRowView: View {
+    let label: String
+    
+    var body: some View {
+        VStack {
+            RowsHeaderView(label: label)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 0) {
+                    ForEach(0 ..< 5) { _ in
+                        Rectangle()
+                            .aspectRatio(2/3, contentMode: .fit)
+                            .frame(height: 140)
+                            .padding(.leading)
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct VideoRowView: View {
+    let label: String
+    let buttons = [
+        BottomPosterButton(image: "play.fill", label: "Play"),
+        BottomPosterButton(image: "plus", label: "My List")
+    ]
+    
+    var body: some View {
+        VStack {
+            RowsHeaderView(label: label)
+                .padding(.top)
+            
+            VStack {
+                Rectangle()
+                    .aspectRatio(16/9, contentMode: .fit)
+                    .frame(width: UIScreen.main.bounds.width - 32)
+                
+                HStack {
+                    ForEach(buttons, id: \.self) { button in
+                        Button(action: {
+                            //
+                        }) {
+                            HStack {
+                                Image(systemName: button.image)
+                                Text(button.label)
+                            }
+                        }
+                        .frame(width: UIScreen.main.bounds.width / 2.5, height: 34)
+                        .background(Color(.secondarySystemFill))
+                        .cornerRadius(8)
+                        .foregroundColor(Color(.label))
+                        .padding()
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// MARK: - Coming Soon Tab
+struct ComingSoonView: View {
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                NavigationLink(destination: NotificationsView()) {
+                    Image(systemName: "bell")
+                    Text("Notifications")
+                        .bold()
+                    
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                }
+                .padding(.horizontal)
+                .foregroundColor(Color(.label))
+            }
+            .navigationBarTitle("")
+            .navigationBarHidden(true)
+        }
+    }
+}
+
+struct NotificationsView: View {
+    var body: some View {
+        ScrollView {
+            ForEach(0 ..< 5) { _ in
+                HStack(alignment: .top) {
+                    ZStack {
+                        Rectangle()
+                            .aspectRatio(16/9, contentMode: .fit)
+                            .foregroundColor(Color(.systemGray4))
+                            .offset(x: 16, y: 10)
+                        
+                        Rectangle()
+                            .aspectRatio(16/9, contentMode: .fit)
+                            .foregroundColor(Color(.systemGray2))
+                            .offset(x: 8, y: 6)
+                        
+                        Image(uiImage: #imageLiteral(resourceName: "poster"))
+                            .resizable()
+                            .aspectRatio(16/9, contentMode: .fit)
+                    }
+                    .frame(width: 100)
+                    .padding(.trailing)
+                    
+                    VStack(alignment: .leading) {
+                        Text("Top 10 today!")
+                            .bold()
+                        Text("Watch them all!!")
+                            .font(.caption)
+                        Text("June 22")
+                            .font(.caption)
+                    }
+                    
+                    Spacer()
+                }
+                .padding()
+            }
+        }
+        .navigationBarTitle("Notifications", displayMode: .inline)
     }
 }
