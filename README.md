@@ -131,3 +131,9 @@ Read through some of John's basics [articles.](https://www.swiftbysundell.com/ba
 ## Days 024-027 – SwiftUI apps and some more Stanford University CS193p
 
 I have been working on a few of my own random app ideas as well as going through the Stanford SwiftUI course.
+
+---
+## Days 028 – SwiftUI + Combine
+
+- Day 028 [code](https://github.com/calebrwells/100-Days-of-Swift-Code-2020/tree/master/SwiftUI/SwiftUI%20and%20Combine)
+- Day 028 [video](https://youtu.be/vk44q04H9c4)
