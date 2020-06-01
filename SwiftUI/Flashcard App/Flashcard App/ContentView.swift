@@ -18,9 +18,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-                .previewDevice(.init(rawValue: "iPhone 11 Pro Max"))
-            
-//            ContentView()
         }
     }
 }
