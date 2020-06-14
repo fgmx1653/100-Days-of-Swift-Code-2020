@@ -4,6 +4,7 @@ import AVFoundation
 struct CardView: View {
     let speechSynthesizer = AVSpeechSynthesizer()
     var volume = 0.0
+    let wordCountLabels = ["See All", "2 letter words", "3 letter words", "4 letter words"]
     
     @State private var word: CGFloat = 0
     @Binding var currentList: Int
@@ -37,6 +38,26 @@ struct CardView: View {
             
             VStack {
                 Spacer()
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack {
+                        ForEach(wordCountLabels, id: \.self) { label in
+                            Button(action: {
+                                //
+                            }) {
+                                Text(label)
+                                    .bold()
+                                    .padding(.horizontal)
+                                    .padding(.vertical, 4)
+                                    .foregroundColor(.black)
+                                    .background(Color.white)
+                                    .clipShape(Capsule())
+                            }
+                        }
+                        .padding()
+                    }
+                }
+                
                 
                 Text(word < 100 ? wordsList[currentList][Int(word)] : "Tap to\nstart again!")
                     .font(.title)
