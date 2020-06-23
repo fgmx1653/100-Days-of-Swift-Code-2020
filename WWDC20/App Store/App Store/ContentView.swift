@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUI Link to the web
-//
-//  Created by Caleb Wells on 6/22/20.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,13 +6,12 @@ struct ContentView: View {
             ScrollView {
                 TopPageView()
                 HStack {
-                    Text("Popular Apps")
+                    Text("Popualr Apps")
                         .font(.title)
                         .bold()
                         .padding(.leading)
                     Spacer()
                 }
-                
                 AppPageView()
             }
             .navigationTitle("Apps")
@@ -43,14 +35,14 @@ struct TopPageView: View {
                         VStack(alignment: .leading) {
                             Text("Some App")
                                 .bold()
-                            Text("Read this")
+                            Text("Details and stuff")
                                 .foregroundColor(.secondary)
                         }
                         Spacer()
                     }
+                    
                     RoundedRectangle(cornerRadius: 8, style: .continuous)
                 }
-                    
             }
             .padding()
         }
@@ -65,9 +57,9 @@ struct AppPageView: View {
         TabView {
             ForEach(0 ..< 5) { _ in
                 VStack {
-                    AppCell()
-                    AppCell()
-                    AppCell()
+                    AppCellView()
+                    AppCellView()
+                    AppCellView()
                 }
             }
             .padding()
@@ -78,24 +70,22 @@ struct AppPageView: View {
 }
 
 //MARK: - New .swift file.
-struct AppCell: View {
+struct AppCellView: View {
     var body: some View {
-        HStack(alignment: .top) {
+        HStack {
             RoundedRectangle(cornerRadius: 8, style: .continuous)
                 .frame(width: 60, height: 60)
             
             VStack(alignment: .leading) {
-                Text("App Name")
-                Text("App info")
+                Text("Some App")
+                    .bold()
+                Text("Details and stuff")
                     .foregroundColor(.secondary)
             }
-            
             Spacer()
             
             Image(systemName: "icloud.and.arrow.down")
                 .font(.title)
-                .padding(.top)
         }
-        .padding(4)
     }
 }
