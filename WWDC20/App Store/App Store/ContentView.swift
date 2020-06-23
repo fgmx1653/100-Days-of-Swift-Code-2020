@@ -6,7 +6,7 @@ struct ContentView: View {
             ScrollView {
                 TopPageView()
                 HStack {
-                    Text("Popualr Apps")
+                    Text("Popular Apps")
                         .font(.title)
                         .bold()
                         .padding(.leading)
