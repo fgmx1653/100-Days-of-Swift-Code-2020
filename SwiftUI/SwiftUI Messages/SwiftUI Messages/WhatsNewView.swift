@@ -3,6 +3,12 @@ import SwiftUI
 struct WhatsNewView: View {
     @Binding var isWhatsNewsShowing: Bool
     
+    let info = [
+        WhatsNew(image: "swift", header: "Share your Swift code", text: "Get creatvie and send messages with your name and photo, or a Memoji."),
+        WhatsNew(image: "lasso.sparkles", header: "Share stuff", text: "Get creatvie and send messages with your name and photo, or a Memoji."),
+        WhatsNew(image: "bubble.left.and.bubble.right", header: "Share your name and photo", text: "Get creatvie and send messages with your name and photo, or a Memoji.")
+    ]
+    
     var body: some View {
         VStack {
             Spacer()
@@ -10,8 +16,8 @@ struct WhatsNewView: View {
                 .font(.largeTitle)
                 .bold()
             
-            ForEach(0 ..< 3) { _ in
-                WhatsNewTextView()
+            ForEach(info, id: \.self) { info in
+                WhatsNewTextView(image: info.image, header: info.header, text: info.text)
             }
             
             Spacer()
@@ -39,22 +45,33 @@ struct WhatsNewView_Previews: PreviewProvider {
     }
 }
 
+//MARK: - New .swift file.
 struct WhatsNewTextView: View {
+    let image: String
+    let header: String
+    let text: String
+    
     var body: some View {
         HStack {
-            Image(systemName: "bubble.left.and.bubble.right")
+            Image(systemName: image)
                 .font(.largeTitle)
                 .foregroundColor(.blue)
             
             VStack(alignment: .leading) {
-                Text("Share your nam and photo")
+                Text(header)
                     .bold()
                 
-                Text("Get creatvie and send messages with your name and photo, or a Memoji.")
+                Text(text)
                     .foregroundColor(.secondary)
             }
             .frame(width: 240)
             .padding()
         }
     }
+}
+
+struct WhatsNew: Hashable {
+    let image: String
+    let header: String
+    let text: String
 }

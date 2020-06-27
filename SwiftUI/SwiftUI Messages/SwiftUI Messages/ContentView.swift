@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isWhatsNewsShowing = true
+    @AppStorage("whatsNewView") var isWhatsNewsShowing = true
     
     var body: some View {
         Text("Hello, World!")
